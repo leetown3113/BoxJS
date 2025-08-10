@@ -5,7 +5,7 @@
 
 const $ = new API('ql', true);
 
-const title = '🐉 通知提示';
+const title = '通知提示';
 
 let envs = [];
 try {
