@@ -5,7 +5,7 @@
 
 const $ = new API("ql", true);
 
-const title = "🐉 通知提示";
+const title = "通知提示";
 
 const jd_cookies = JSON.parse($.read("#CookiesJD") || "[]");
 
@@ -96,7 +96,7 @@ async function getScriptUrl() {
 
   const cookieText = jd_cookies.map((item) => item.userName).join(`\n`);
   if ($.read("mute") !== "true") {
-    return $.notify(title, "", `已同步账号： ${cookieText}`);
+    return $.notify(title, "", `已同步JD账号： ${cookieText}`);
   }
 })()
   .catch((e) => {
