@@ -1,6 +1,6 @@
 /*
 青龙 docker 每日自动同步 boxjs cookie
-40 * * * https://raw.githubusercontent.com/dompling/Script/master/jd/boxjs_env_to_ql.js
+40 * * * https://raw.githubusercontent.com/leetown3113/BoxJS/refs/heads/main/JD/boxjs_env_to_ql.js
  */
 
 const $ = new API("ql", true);
@@ -67,7 +67,7 @@ envsSync.forEach((item) => {
 
 async function getScriptUrl() {
   const response = await $.http.get({
-    url: "https://raw.githubusercontent.com/dompling/Script/master/jd/ql_api.js",
+    url: "https://raw.githubusercontent.com/leetown3113/BoxJS/refs/heads/main/JD/ql_api.js",
   });
   return response.body;
 }
