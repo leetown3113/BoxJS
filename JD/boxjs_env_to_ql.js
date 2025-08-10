@@ -36,7 +36,7 @@ $.getdata = (t) => {
   return s;
 };
 
-const title = "🐉 通知提示";
+const title = "通知提示";
 const notifyMsg = [];
 let envsSync = $.read("ENV_KEY") || `[]`;
 
