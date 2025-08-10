@@ -5,8 +5,6 @@
   "icon": "https://avatars.githubusercontent.com/u/140289459?s=400&u=6ef54a783bcc2f624efabe60d851f390689bdde8&v=4",
   "repo": "https://github.com/leetown3113/BoxJS",
   "apps": [
-
-
     {
       "id": "ql",
       "name": "青龙同步",
@@ -138,6 +136,5 @@
         "应用client_id,client_secret（openapi）方式；请去 设置->应用 中添加相关参数，优先以 openapi 方式同步"
       ]
     },
-
   ]
 }
