@@ -1,11 +1,121 @@
 {
-  "id": "leetown.app.sub",
-  "name": "leetown自用订阅",
-  "author": "@leetown3113",
-  "icon": "https://avatars.githubusercontent.com/u/140289459?v=4&size=64",
-  "repo": "https://github.com/leetown3113/BoxJS",
+  "id": "dompling.app.sub",
+  "name": "DomplingYaYa 应用订阅",
+  "author": "@DomplingYaYa",
+  "icon": "https://avatars3.githubusercontent.com/u/23498579?s=460&u=1e87605e4abc4e6ecf3edd8b1d730227f54db4d4&v=4",
+  "repo": "https://github.com/dompling/Script",
   "apps": [
-
+    {
+      "id": "10010Ck",
+      "name": "中国联通",
+      "keys": ["@YaYa_10010.cookie"],
+      "author": "@dompling",
+      "icons": [
+        "https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/10010.png",
+        "https://raw.githubusercontent.com/Orz-3/mini/master/Color/10010.png"
+      ]
+    },
+    {
+      "id": "10000Ck",
+      "name": "中国电信",
+      "keys": ["@yy_10000.china_telecom_loginUrl"],
+      "settings": [
+        {
+          "id": "@yy_10000.china_telecom_loginUrl",
+          "name": "电信登录地址",
+          "val": null,
+          "type": "text",
+          "desc": ""
+        }
+      ],
+      "author": "@dompling",
+      "icons": [
+        "https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/10000.png",
+        "https://raw.githubusercontent.com/Orz-3/mini/master/Color/10000.png"
+      ]
+    },
+    {
+      "id": "yy.Spotify",
+      "name": "Spotify",
+      "keys": [
+        "BaiDu_APP_ID",
+        "BaiDu_SECURITY_KEY",
+        "@Spotify.music163",
+        "@Spotify.cacheLyics",
+        "@Spotify.autoTrans",
+        "@Spotify.spotifyToken",
+        "@Spotify.spotifyTo163Ids",
+        "@Spotify.spotifyTo163Lyics",
+        "@Spotify.clientId",
+        "@Spotify.clientSecret"
+      ],
+      "author": "@dompling",
+      "descs_html": [
+        "<h2>百度翻译 API</h2>",
+        "<ol>注册百度翻译个人开发者: <a href=\"http://api.fanyi.baidu.com/register\">开发者注册</a></ol>",
+        "<ol>注册后如果需要认证可自行选择是否实人认证(高级版需要验证)</ol>",
+        "<ol>开通(通用翻译)API服务: <a href=\"https://fanyi-api.baidu.com/choose\">服务开通</a></ol>",
+        "<ol>appid和密钥: <a href=\"http://api.fanyi.baidu.com/manage/developer\">获取 APP_ID、SECURITY_KEY</a></ol>",
+        "<h2>Spotify API</h2>",
+        "<ol>登录: <a href=\"https://developer.spotify.com/dashboard\">开发者</a></ol>",
+        "<ol>创建APP: <a href=\"https://developer.spotify.com/dashboard/create\">开发者</a></ol>"
+      ],
+      "settings": [
+        {
+          "id": "@Spotify.autoTrans",
+          "name": "自动翻译",
+          "val": true,
+          "type": "boolean",
+          "desc": "翻译后的内容直接显示在歌词播放界面"
+        },
+        {
+          "id": "BaiDu_APP_ID",
+          "name": "百度 APP_ID",
+          "val": null,
+          "type": "text",
+          "desc": "APP_ID"
+        },
+        {
+          "id": "BaiDu_SECURITY_KEY",
+          "name": "百度 SECURITY_KEY",
+          "val": null,
+          "type": "text",
+          "desc": "SECURITY_KEY"
+        },
+        {
+          "id": "@Spotify.music163",
+          "name": "网易云歌词",
+          "val": true,
+          "type": "boolean",
+          "desc": "开启时，当歌曲无歌词时，自动在网易云搜索歌词匹配"
+        },
+        {
+          "id": "@Spotify.cacheLyics",
+          "name": "缓存歌词",
+          "val": true,
+          "type": "boolean",
+          "desc": "读取到第三方音乐的歌词时，自动缓存"
+        },
+        {
+          "id": "@Spotify.clientId",
+          "name": "Spotify ClientId",
+          "val": null,
+          "type": "text",
+          "desc": "ClientId"
+        },
+        {
+          "id": "@Spotify.clientSecret",
+          "name": "Spotify ClientSecret",
+          "val": null,
+          "type": "text",
+          "desc": "ClientSecret"
+        }
+      ],
+      "icons": [
+        "https://raw.githubusercontent.com/Orz-3/mini/master/Color/Spotify.png",
+        "https://raw.githubusercontent.com/Orz-3/mini/master/Color/Spotify.png"
+      ]
+    },
     {
       "id": "gistBackup",
       "name": "Gist备份",
@@ -202,6 +312,17 @@
         "<a href=\"/app/gistBackup\" style=\"display: block;width: 100%;font-size: 20px;text-align: center;background: #1890ff;color: #fff;border-radius: 4px;overflow: hidden;text-decoration: none;padding: 5px;box-sizing: border-box;margin:10px 0\">Gist 配置</a>",
         "<a href=\"/app/GistBackupBlackApp\" style=\"display: block;width: 100%;font-size: 20px;text-align: center;background: #1890ff;color: #fff;border-radius: 4px;overflow: hidden;text-decoration: none;padding: 5px;box-sizing: border-box;\">Gist 数据白名单</a>"
       ]
+    },
+    {
+      "id": "scriptable",
+      "name": "桌面组件",
+      "keys": ["scriptable"],
+      "icons": [
+        "https://scriptablejs.gitee.io/store/favicon.ico",
+        "https://scriptablejs.gitee.io/store/favicon.ico"
+      ],
+      "author": "@dompling",
+      "repo": ""
     },
     {
       "id": "ql",
@@ -534,5 +655,58 @@
         }
       ]
     },
+    {
+      "id": "ftms",
+      "name": "丰田汽车",
+      "keys": ["@ftms.headers", "@ftms.mute"],
+      "author": "@dompling",
+      "settings": [
+        {
+          "id": "@ftms.mute",
+          "name": "静音获取",
+          "val": false,
+          "type": "boolean",
+          "desc": "更新时，不会执行通知提示"
+        }
+      ],
+      "icons": [
+        "https://raw.githubusercontent.com/dompling/Scriptable/master/images/ftms.png",
+        "https://raw.githubusercontent.com/dompling/Scriptable/master/images/ftms.png"
+      ]
+    },
+    {
+      "id": "SET_TIME",
+      "name": "定时任务",
+      "keys": ["@SET_TIME.TASK", "@SET_TIME.SUB", "@SET_TIME.CACHE"],
+      "author": "@dompling",
+      "settings": [
+        {
+          "id": "@SET_TIME.SUB",
+          "name": "任务订阅",
+          "val": "",
+          "type": "textarea",
+          "desc": "QX 定时任务配置",
+          "primary": ["author"],
+          "autoGrow": false,
+          "rows": 8,
+          "child": [
+            {
+              "id": "author",
+              "name": "作者",
+              "type": "text"
+            },
+            {
+              "id": "url",
+              "name": "订阅链接",
+              "type": "text"
+            }
+          ]
+        }
+      ],
+      "icons": [
+        "https://raw.githubusercontent.com/dompling/Script/master/icon/setTime.png",
+        "https://raw.githubusercontent.com/dompling/Script/master/icon/setTime.png"
+      ]
+    }
   ]
 }
