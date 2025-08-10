@@ -30,7 +30,7 @@ function getUsername(ck) {
 
 async function getScriptUrl() {
   const response = await $.http.get({
-    url: "https://raw.githubusercontent.com/dompling/Script/master/jd/ql_api.js",
+    url: "https://raw.githubusercontent.com/leetown3113/BoxJS/refs/heads/main/JD/ql_api.js",
   });
   return response.body;
 }
@@ -69,7 +69,7 @@ async function getScriptUrl() {
         value:
           jd_cookie.wskey.indexOf("pt_pin") !== -1
             ? jd_cookie.wskey
-            : `${jd_cookie.wskey}pt_pin=${encodeURI(username)};`,
+            : `${jd_cookie.wskey}`,
       });
     }
   }
