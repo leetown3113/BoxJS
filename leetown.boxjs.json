@@ -1,9 +1,9 @@
 {
-  "id": "dompling.app.sub",
-  "name": "DomplingYaYa 应用订阅",
-  "author": "@DomplingYaYa",
-  "icon": "https://avatars3.githubusercontent.com/u/23498579?s=460&u=1e87605e4abc4e6ecf3edd8b1d730227f54db4d4&v=4",
-  "repo": "https://github.com/dompling/Script",
+  "id": "leetown.app.sub",
+  "name": "leetown自用订阅",
+  "author": "@leetown",
+  "icon": "https://avatars.githubusercontent.com/u/140289459?s=400&u=6ef54a783bcc2f624efabe60d851f390689bdde8&v=4",
+  "repo": "https://github.com/leetown3113/BoxJS",
   "apps": [
     {
       "id": "10010Ck",
