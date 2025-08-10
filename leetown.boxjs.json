@@ -5,35 +5,7 @@
   "icon": "https://avatars.githubusercontent.com/u/140289459?s=400&u=6ef54a783bcc2f624efabe60d851f390689bdde8&v=4",
   "repo": "https://github.com/leetown3113/BoxJS",
   "apps": [
-    {
-      "id": "10010Ck",
-      "name": "中国联通",
-      "keys": ["@YaYa_10010.cookie"],
-      "author": "@dompling",
-      "icons": [
-        "https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/10010.png",
-        "https://raw.githubusercontent.com/Orz-3/mini/master/Color/10010.png"
-      ]
-    },
-    {
-      "id": "10000Ck",
-      "name": "中国电信",
-      "keys": ["@yy_10000.china_telecom_loginUrl"],
-      "settings": [
-        {
-          "id": "@yy_10000.china_telecom_loginUrl",
-          "name": "电信登录地址",
-          "val": null,
-          "type": "text",
-          "desc": ""
-        }
-      ],
-      "author": "@dompling",
-      "icons": [
-        "https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/10000.png",
-        "https://raw.githubusercontent.com/Orz-3/mini/master/Color/10000.png"
-      ]
-    },
+
     {
       "id": "yy.Spotify",
       "name": "Spotify",
