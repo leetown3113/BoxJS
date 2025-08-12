@@ -113,14 +113,6 @@
           "script": "https://raw.githubusercontent.com/leetown3113/BoxJS/refs/heads/main/JD/ql_cookie_sync.js"
         },
         {
-          "name": "BoxJS同步指定Key到青龙",
-          "script": "https://raw.githubusercontent.com/leetown3113/BoxJS/refs/heads/main/JD/boxjs_env_to_ql.js"
-        },
-        {
-          "name": "青龙同步京东CK到BoxJS",
-          "script": "https://raw.githubusercontent.com/leetown3113/BoxJS/refs/heads/main/JD/ql_sync_box.js"
-        },
-        {
           "name": "备份环境变量",
           "script": "https://raw.githubusercontent.com/leetown3113/BoxJS/refs/heads/main/JD/ql_env_back.js"
         },
