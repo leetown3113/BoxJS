@@ -113,7 +113,7 @@
           "script": "https://raw.githubusercontent.com/leetown3113/BoxJS/refs/heads/main/JD/ql_cookie_sync.js"
         }
       ]
-    }，
+    },
     		{
 			"id": "testflight",
 			"name": "tf监控",
