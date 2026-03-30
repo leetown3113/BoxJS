@@ -115,7 +115,7 @@
       ]
     },
     		{
-			"id": "testflight",
+			"id": "TestFlight",
 			"name": "TF监控",
 			"keys": [],
 			"settings": [
