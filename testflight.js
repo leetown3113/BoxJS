@@ -1,4 +1,3 @@
-
 const title = 'TestFilght';
 const url = "https://testflight.apple.com/join/";
 const $ = new Env('TestFilght监控');
