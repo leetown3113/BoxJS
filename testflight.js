@@ -1,30 +1,8 @@
-/** 
- * 注意: 
- * 在这里你可以使用完整的 EnvJs 环境
- * 
- * 同时: 
- * 你`必须`手动调用 $done()
- * 
- * 因为: 
- * BoxJs 不为主动执行的脚本调用 $done()
- * 而把 $done 的时机完全交由脚本控制
- * 
- * 最后: 
- * 这段脚本是可以直接运行的!
- */
 
-/**
- * 参考chavyleung和NobyDa的写法
- * 写入要监测的公测tf appkey，当有空位的时候会弹出通知。
- * 建议task时间间隔小点。
- */
 const title = 'TestFilght';
 const url = "https://testflight.apple.com/join/";
 const $ = new Env('TestFilght监控');
-/**
- * 填入要监测的appkey。从testfligt地址获取。
- * 例如"VCIvwk2g,wArXdacJ,2vnRvOTX,LzjySbQx,IdFRwmNy,qDkBu2ur,4Qt2lIm5,ZzqOu8tX,ftCqFe6D,fy7LvHVA,QKqitFwc"
-*/
+
 //const appkey = "VCIvwk2g,1SyedSId";
 const appkey = $.getdata('appkey');
 
