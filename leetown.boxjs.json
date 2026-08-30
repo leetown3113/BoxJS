@@ -6,6 +6,54 @@
   "repo": "https://github.com/leetown3113/BoxJS",
   "apps": [
     {
+      "id": "JD_Cookies",
+      "name": "京东账号",
+      "keys": ["CookiesJD", "cks_get_mute"],
+      "settings": [
+        {
+          "id": "cks_get_mute",
+          "name": "静音获取",
+          "val": false,
+          "type": "boolean",
+          "desc": "更新时，不会执行通知提示"
+        },
+        {
+          "id": "del_condition",
+          "name": "删除条件",
+          "val": "",
+          "type": "text",
+          "desc": "输入的条件,运行一次之后则会清空条件"
+        },
+        {
+          "id": "CookiesJD",
+          "name": "CK 列表",
+          "val": "",
+          "type": "textarea",
+          "autoGrow": false,
+          "rows": 8,
+          "desc": "CK 列表 (JSON 格式)",
+          "primary": ["userName"],
+          "child": []
+        }
+      ],
+      "icons": [
+        "https://raw.githubusercontent.com/Orz-3/mini/master/jd.png",
+        "https://raw.githubusercontent.com/Orz-3/task/master/jd.png"
+      ],
+      "author": "@dompling",
+      "repo": "https://github.com/dompling/Script/blob/master/jd/JD_extra.js",
+      "scripts": [
+        {
+          "name": "京东签到",
+          "script": "https://raw.githubusercontent.com/dompling/Script/master/jd/JD_extra_sign.js"
+        },
+        {
+          "name": "删除相关 ck",
+          "script": "https://raw.githubusercontent.com/dompling/Script/master/jd/jd_ck_del.js"
+        }
+      ]
+    },
+    {
       "id": "JD_Cookies_remark",
       "name": "登录助手",
       "keys": ["CookieIndex", "@jd_ck_remark.remark", "@jd_ck_remark.mute"],
