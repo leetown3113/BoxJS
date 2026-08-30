@@ -41,17 +41,7 @@
         "https://raw.githubusercontent.com/Orz-3/task/master/jd.png"
       ],
       "author": "@dompling",
-      "repo": "https://github.com/dompling/Script/blob/master/jd/JD_extra.js",
-      "scripts": [
-        {
-          "name": "京东签到",
-          "script": "https://raw.githubusercontent.com/dompling/Script/master/jd/JD_extra_sign.js"
-        },
-        {
-          "name": "删除相关 ck",
-          "script": "https://raw.githubusercontent.com/dompling/Script/master/jd/jd_ck_del.js"
-        }
-      ]
+      "repo": "https://github.com/dompling/Script/blob/master/jd/JD_extra.js"
     },
     {
       "id": "JD_Cookies_remark",
