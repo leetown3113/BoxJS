@@ -40,18 +40,7 @@
         "https://raw.githubusercontent.com/Orz-3/mini/master/jd.png",
         "https://raw.githubusercontent.com/Orz-3/task/master/jd.png"
       ],
-      "author": "@leetown",
-      "repo": "https://github.com/dompling/Script/blob/master/jd/JD_extra.js",
-      "scripts": [
-        {
-          "name": "京东签到",
-          "script": "https://raw.githubusercontent.com/dompling/Script/master/jd/JD_extra_sign.js"
-        },
-        {
-          "name": "删除相关 ck",
-          "script": "https://raw.githubusercontent.com/dompling/Script/master/jd/jd_ck_del.js"
-        }
-      ]
+      "author": "@leetown"
     },
     {
       "id": "JD_Cookies_remark",
@@ -193,8 +182,8 @@
         "https://raw.githubusercontent.com/Orz-3/mini/master/jd.png",
         "https://raw.githubusercontent.com/Orz-3/task/master/jd.png"
       ],
-			"author": "@leetown",
-			"repo": "https://raw.githubusercontent.com/leetown3113/BoxJS/refs/heads/main/JD/jd_cookie_search.js",
+	  "author": "@leetown",
+	  "repo": "https://raw.githubusercontent.com/leetown3113/BoxJS/refs/heads/main/JD/jd_cookie_search.js",
       "script": "https://raw.githubusercontent.com/leetown3113/BoxJS/refs/heads/main/JD/jd_cookie_search.js"
     },
 
