@@ -183,7 +183,6 @@
         "https://raw.githubusercontent.com/Orz-3/task/master/jd.png"
       ],
 	  "author": "@leetown",
-	  "repo": "https://raw.githubusercontent.com/leetown3113/BoxJS/refs/heads/main/JD/jd_cookie_search.js",
       "script": "https://raw.githubusercontent.com/leetown3113/BoxJS/refs/heads/main/JD/jd_cookie_search.js"
     },
 
@@ -288,7 +287,6 @@
         "https://raw.githubusercontent.com/dompling/Script/master/image/ql.png"
       ],
       "author": "@leetown",
-      "repo": "https://raw.githubusercontent.com/leetown3113/BoxJS/refs/heads/main/JD/ql_cookie_sync.js",
       "scripts": [
         {
           "name": "BoxJS同步京东CK到青龙",
@@ -323,7 +321,6 @@
 				}
 			],
 			"author": "@leetown",
-			"repo": "https://raw.githubusercontent.com/leetown3113/BoxJS/refs/heads/main/testflight.js",
 			"icons": [
 				"https://raw.githubusercontent.com/Orz-3/mini/master/testflight.png",
 				"https://raw.githubusercontent.com/Orz-3/task/master/testflight.png"
