@@ -30,7 +30,7 @@
           "val": "",
           "type": "textarea",
           "autoGrow": false,
-          "rows": 8,
+          "rows": 15,
           "desc": "CK 列表 (JSON 格式)",
           "primary": ["userName"],
           "child": []
@@ -69,7 +69,7 @@
           "val": "",
           "type": "textarea",
           "autoGrow": false,
-          "rows": 4,
+          "rows": 2,
           "desc": "快捷跳转 (JSON 格式)",
           "primary": ["title"],
           "child": [
@@ -106,7 +106,7 @@
           "val": "",
           "type": "textarea",
           "autoGrow": false,
-          "rows": 8,
+          "rows": 3,
           "desc": "CK 备注列表 (JSON 格式)",
           "primary": ["nickname", "status"],
           "child": [
@@ -287,12 +287,7 @@
         "https://raw.githubusercontent.com/dompling/Script/master/image/ql.png"
       ],
       "author": "@leetown",
-      "scripts": [
-        {
-          "name": "BoxJS同步京东CK到青龙",
           "script": "https://raw.githubusercontent.com/leetown3113/BoxJS/refs/heads/main/JD/ql_cookie_sync.js"
-        }
-      ]
     },
     		{
 			"id": "TestFlight",
