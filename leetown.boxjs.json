@@ -29,7 +29,7 @@
           "name": "CK 列表",
           "val": "",
           "type": "textarea",
-          "autoGrow": false,
+          "autoGrow": true,
           "rows": 15,
           "desc": "CK 列表 (JSON 格式)",
           "primary": ["userName"],
