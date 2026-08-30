@@ -105,7 +105,7 @@
           "name": "CK 备注列表",
           "val": "",
           "type": "textarea",
-          "autoGrow": false,
+          "autoGrow": true,
           "rows": 3,
           "desc": "CK 备注列表 (JSON 格式)",
           "primary": ["nickname", "status"],
