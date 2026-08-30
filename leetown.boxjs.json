@@ -68,7 +68,7 @@
           "name": "快捷跳转",
           "val": "",
           "type": "textarea",
-          "autoGrow": false,
+          "autoGrow": true,
           "rows": 2,
           "desc": "快捷跳转 (JSON 格式)",
           "primary": ["title"],
