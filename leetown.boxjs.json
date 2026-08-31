@@ -14,24 +14,21 @@
           "id": "cks_get_mute",
           "name": "静音获取",
           "val": false,
-          "type": "boolean",
-          "desc": "更新时，不会执行通知提示"
+          "type": "boolean"
         },
         {
           "id": "del_condition",
           "name": "删除条件",
           "val": "",
-          "type": "text",
-          "desc": "输入的条件,运行一次之后则会清空条件"
+          "type": "text"
         },
         {
           "id": "CookiesJD",
-          "name": "CK 列表",
+          "name": "CK 列表 (JSON 格式)",
           "val": "",
           "type": "textarea",
           "autoGrow": true,
           "rows": 15,
-          "desc": "CK 列表 (JSON 格式)",
           "primary": ["userName"],
           "child": []
         }
