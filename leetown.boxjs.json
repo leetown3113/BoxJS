@@ -46,10 +46,9 @@
       "settings": [
         {
           "id": "@jd_ck_remark.mute",
-          "name": "静音",
+          "name": "通知静音",
           "val": false,
-          "type": "boolean",
-          "desc": "不会执行通知提示"
+          "type": "boolean"
         },
         {
           "id": "CookieIndex",
@@ -62,12 +61,11 @@
         },
         {
           "id": "@jd_ck_remark.actions",
-          "name": "快捷跳转",
+          "name": "快捷跳转 (JSON 格式)",
           "val": "",
           "type": "textarea",
           "autoGrow": true,
           "rows": 2,
-          "desc": "快捷跳转 (JSON 格式)",
           "primary": ["title"],
           "child": [
             {
@@ -99,12 +97,11 @@
         },
         {
           "id": "@jd_ck_remark.remark",
-          "name": "CK 备注列表",
+          "name": "CK 备注列表 (JSON 格式)",
           "val": "",
           "type": "textarea",
           "autoGrow": true,
           "rows": 3,
-          "desc": "CK 备注列表 (JSON 格式)",
           "primary": ["nickname", "status"],
           "child": [
             {
@@ -200,17 +197,15 @@
       "settings": [
         {
           "id": "@ql.mute",
-          "name": "静音",
+          "name": "通知静音",
           "val": false,
-          "type": "boolean",
-          "desc": "同步时，不会执行通知提示"
+          "type": "boolean"
         },
         {
           "id": "@ql.is_pwd",
           "name": "开启密码登陆",
           "val": false,
-          "type": "boolean",
-          "desc": "同步时，优先使用密码登陆"
+          "type": "boolean"
         },
         {
           "id": "@ql.ENV_KEY",
