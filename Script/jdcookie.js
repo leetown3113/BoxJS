@@ -171,7 +171,7 @@ function isCacheExpired(timestamp, expireTime = CACHE_EXPIRE_TIME) {
 
 function createCookie(ptPin, ptKey) {
   if (!ptPin || !ptKey) return '';
-  return `pt_key=${ptKey};pt_pin=${ptPin}`;
+  return `pt_key=${ptKey};pt_pin=${ptPin};`;
 }
 
 function redactSecrets(text) {
