@@ -321,7 +321,7 @@
         "https://raw.githubusercontent.com/Orz-3/task/master/jd.png"
       ],
 	  "author": "@leetown",
-      "script": "https://raw.githubusercontent.com/leetown3113/BoxJS/refs/heads/main/JD/jd_cookie_search.js"
+      "script": "https://raw.githubusercontent.com/leetown3113/BoxJS/main/JD/jd_cookie_search.js"
     },
 
     {
@@ -362,7 +362,7 @@
           "childScripts": [
             {
               "name": "同步到青龙",
-              "script": "https://raw.githubusercontent.com/leetown3113/BoxJS/refs/heads/main/JD/boxjs_env_to_ql.js"
+              "script": "https://raw.githubusercontent.com/leetown3113/BoxJS/main/JD/boxjs_env_to_ql.js"
             }
           ],
           "child": [
@@ -423,7 +423,7 @@
         "https://raw.githubusercontent.com/dompling/Script/master/image/ql.png"
       ],
       "author": "@leetown",
-          "script": "https://raw.githubusercontent.com/leetown3113/BoxJS/refs/heads/main/JD/ql_cookie_sync.js"
+          "script": "https://raw.githubusercontent.com/leetown3113/BoxJS/main/JD/ql_cookie_sync.js"
     },
     		{
 			"id": "TestFlight",
