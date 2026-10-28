@@ -327,7 +327,7 @@ async function processCookie() {
     $.log(`🆕 新增用户 WSKEY: ${$.cookie}`);
     $.wskeyList.push({
       userName: normalizedPin,
-      cookie: $.cookie
+      wskey: $.cookie
     });
     clearTempCache();
     return true;
