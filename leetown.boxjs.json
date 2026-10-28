@@ -67,15 +67,15 @@
       "scripts": [
         {
           "name": "同步 Cookie 到青龙",
-          "script": "https://raw.githubusercontent.com/byhooi/Surge/main/Script/jdcookie_ql_sync.js"
+          "script": "https://raw.githubusercontent.com/leetown3113/BoxJS/main/Script/jdcookie_ql_sync.js"
         },
         {
           "name": "清空 Cookie 列表",
-          "script": "https://raw.githubusercontent.com/byhooi/Surge/main/Script/jdcookie_clear.js"
+          "script": "https://raw.githubusercontent.com/leetown3113/BoxJS/main/Script/jdcookie_clear.js"
         }
       ],
       "author": "@byhooi",
-      "repo": "https://github.com/byhooi/Surge",
+      "repo": "https://github.com/leetown3113/BoxJS",
       "icons": [
         "https://raw.githubusercontent.com/byhooi/Surge/main/icon/jd.png",
         "https://raw.githubusercontent.com/byhooi/Surge/main/icon/jd.png"
@@ -135,15 +135,15 @@
       "scripts": [
         {
           "name": "同步 WSKEY 到青龙",
-          "script": "https://raw.githubusercontent.com/byhooi/Surge/main/Script/wskey_ql_sync.js"
+          "script": "https://raw.githubusercontent.com/leetown3113/BoxJS/main/Script/wskey_ql_sync.js"
         },
         {
           "name": "清空 WSKEY 列表",
-          "script": "https://raw.githubusercontent.com/byhooi/Surge/main/Script/wskey_clear.js"
+          "script": "https://raw.githubusercontent.com/leetown3113/BoxJS/main/Script/wskey_clear.js"
         }
       ],
       "author": "@byhooi",
-      "repo": "https://github.com/byhooi/Surge",
+      "repo": "https://github.com/leetown3113/BoxJS",
       "icons": [
         "https://raw.githubusercontent.com/byhooi/Surge/main/icon/jd.png",
         "https://raw.githubusercontent.com/byhooi/Surge/main/icon/jd.png"
