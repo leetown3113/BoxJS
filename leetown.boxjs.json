@@ -6,7 +6,7 @@
   "repo": "https://github.com/leetown3113/BoxJS",
   "apps": [
 	      {
-      "id": "byhooi_jdcookie_ql",
+      "id": "leetown_jdcookie_ql",
       "name": "京东 Cookie 青龙同步",
       "keys": [
         "auto_sync_jdcookie_ql",
@@ -82,7 +82,7 @@
       ]
     },
     {
-      "id": "byhooi_wskey_ql",
+      "id": "leetown_wskey_ql",
       "name": "京东 WSKEY 青龙同步",
       "keys": [
         "wskeyList",
