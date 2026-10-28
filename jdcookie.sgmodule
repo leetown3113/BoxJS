@@ -1,5 +1,5 @@
 #!name=京东 Cookie
-#!desc=自动获取京东 Cookie (pt_pin, pt_key)
+#!desc=自动获取京东 Cookie (pt_key;pt_pin)
 #!category=JD
 #!system=ios
 
