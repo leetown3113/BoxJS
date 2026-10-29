@@ -360,7 +360,7 @@
           "childScripts": [
             {
               "name": "同步到青龙",
-              "script": "https://raw.githubusercontent.com/leetown3113/BoxJS/master/JD/boxjs_env_to_ql.js"
+              "script": "https://raw.githubusercontent.com/leetown3113/BoxJS/main/JD/boxjs_env_to_ql.js"
             }
           ],
           "child": [
@@ -420,16 +420,16 @@
         "https://raw.githubusercontent.com/dompling/Script/master/image/ql.png",
         "https://raw.githubusercontent.com/dompling/Script/master/image/ql.png"
       ],
-      "author": "@dompling",
-      "repo": "https://raw.githubusercontent.com/leetown3113/BoxJS/master/JD/ql_cookie_sync.js",
+      "author": "@leetown",
+      "repo": "https://raw.githubusercontent.com/leetown3113/BoxJS/main/JD/ql_cookie_sync.js",
       "scripts": [
         {
 		  "name": "BoxJS同步到青龙",
-          "script": "https://raw.githubusercontent.com/leetown3113/BoxJS/master/JD/ql_cookie_sync.js"
+          "script": "https://raw.githubusercontent.com/leetown3113/BoxJS/main/JD/ql_cookie_sync.js"
         },
         {
           "name": "青龙同步到BoxJS",
-          "script": "https://raw.githubusercontent.com/leetown3113/BoxJS/master/JD/ql_sync_box.js"
+          "script": "https://raw.githubusercontent.com/leetown3113/BoxJS/main/JD/ql_sync_box.js"
         }
       ]
     },
