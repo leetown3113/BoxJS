@@ -339,15 +339,17 @@
       "settings": [
         {
           "id": "@ql.mute",
-          "name": "通知静音",
+          "name": "静音",
           "val": false,
-          "type": "boolean"
+          "type": "boolean",
+          "desc": "同步时，不会执行通知提示"
         },
         {
           "id": "@ql.is_pwd",
           "name": "开启密码登陆",
           "val": false,
-          "type": "boolean"
+          "type": "boolean",
+          "desc": "同步时，优先使用密码登陆"
         },
         {
           "id": "@ql.ENV_KEY",
@@ -360,7 +362,7 @@
           "childScripts": [
             {
               "name": "同步到青龙",
-              "script": "https://raw.githubusercontent.com/leetown3113/BoxJS/main/JD/boxjs_env_to_ql.js"
+              "script": "https://raw.githubusercontent.com/leetown3113/BoxJS/master/JD/boxjs_env_to_ql.js"
             }
           ],
           "child": [
@@ -420,8 +422,18 @@
         "https://raw.githubusercontent.com/dompling/Script/master/image/ql.png",
         "https://raw.githubusercontent.com/dompling/Script/master/image/ql.png"
       ],
-      "author": "@leetown",
-          "script": "https://raw.githubusercontent.com/leetown3113/BoxJS/main/JD/ql_cookie_sync.js"
+      "author": "@dompling",
+      "repo": "https://raw.githubusercontent.com/leetown3113/BoxJS/master/JD/ql_cookie_sync.js",
+      "scripts": [
+        {
+		  "name": "BoxJS同步到青龙",
+          "script": "https://raw.githubusercontent.com/leetown3113/BoxJS/master/JD/ql_cookie_sync.js"
+        },
+        {
+          "name": "青龙同步到BoxJS",
+          "script": "https://raw.githubusercontent.com/leetown3113/BoxJS/master/JD/ql_sync_box.js"
+        }
+      ]
     },
     		{
 			"id": "TestFlight",
