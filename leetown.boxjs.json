@@ -150,7 +150,7 @@
     {
       "id": "JD_Cookies",
       "name": "京东账号",
-      "keys": ["CookiesJD", "cks_get_mute"],
+      "keys": ["CookiesJD", "jdCookieList", "cks_get_mute"],
       "settings": [
         {
           "id": "cks_get_mute",
@@ -165,7 +165,7 @@
           "type": "text"
         },
         {
-          "id": "CookiesJD",
+          "id": "jdCookieList",
           "name": "CK 列表 (JSON 格式)",
           "val": "",
           "type": "textarea",
