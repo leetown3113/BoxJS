@@ -148,19 +148,13 @@
     {
       "id": "JD_Cookies",
       "name": "京东账号",
-      "keys": ["CookiesJD", "jdCookieList", "cks_get_mute"],
+      "keys": ["jdCookieList", "CookiesJD", "cks_get_mute"],
       "settings": [
         {
           "id": "cks_get_mute",
           "name": "静音获取",
           "val": false,
           "type": "boolean"
-        },
-        {
-          "id": "del_condition",
-          "name": "删除条件",
-          "val": "",
-          "type": "text"
         },
         {
           "id": "jdCookieList",
