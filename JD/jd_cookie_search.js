@@ -21,16 +21,16 @@ task : 每日九点检查 ck 过期状态
 const noTitle = "登录助手";
 const $ = new API("jd_ck_remark");
 $.msg = "";
-const APIKey = "CookiesJD";
+const APIKey = "jdCookieList";
 const CacheKey = `#${APIKey}`;
 const remark_key = `remark`;
 const searchKey = "keyword";
 const keyword = ($.read(searchKey) || "").split(",");
 const cookiesRemark = JSON.parse($.read(remark_key) || "[]");
-const CookiesJD = JSON.parse($.read(CacheKey) || "[]");
+const jdCookieList = JSON.parse($.read(CacheKey) || "[]");
 const CookieJD = $.read("#CookieJD");
 const CookieJD2 = $.read("#CookieJD2");
-const ckData = CookiesJD.map((item) => item.cookie);
+const ckData = jdCookieList.map((item) => item.cookie);
 if (CookieJD) ckData.unshift(CookieJD);
 if (CookieJD2) ckData.unshift(CookieJD2);
 
