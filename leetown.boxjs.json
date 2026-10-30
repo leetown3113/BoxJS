@@ -216,31 +216,6 @@
               "type": "text"
             },
             {
-              "id": "nickname",
-              "name": "昵称",
-              "type": "text"
-            },
-            {
-              "id": "qywxUserId",
-              "name": "企业微信通知 ID",
-              "type": "text"
-            },
-            {
-              "id": "cardId",
-              "name": "身份证",
-              "type": "text"
-            },
-            {
-              "id": "paymentCode",
-              "name": "支付密码",
-              "type": "text"
-            },
-            {
-              "id": "avatar",
-              "name": "头像",
-              "type": "text"
-            },
-            {
               "id": "mobile",
               "name": "手机号",
               "type": "text"
@@ -259,12 +234,6 @@
             {
               "id": "beanNum",
               "name": "京豆数量",
-              "disabled": true,
-              "type": "text"
-            },
-            {
-              "id": "fruit",
-              "name": "农场进度",
               "disabled": true,
               "type": "text"
             }
