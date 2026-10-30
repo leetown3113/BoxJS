@@ -163,7 +163,7 @@
           "type": "text"
         },
         {
-          "id": "jdCookieList",
+          "id": "CookiesJD",
           "name": "CK 列表 (JSON 格式)",
           "val": "",
           "type": "textarea",
