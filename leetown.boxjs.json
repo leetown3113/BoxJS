@@ -199,42 +199,7 @@
           "rows": 2,
           "placeholder": "cookie 下标（0）"
         },
-        {
-          "id": "@jd_ck_remark.actions",
-          "name": "快捷跳转 (JSON 格式)",
-          "val": "",
-          "type": "textarea",
-          "autoGrow": true,
-          "rows": 2,
-          "primary": ["title"],
-          "child": [
-            {
-              "id": "title",
-              "name": "标题",
-              "type": "text"
-            },
-            {
-              "id": "icon",
-              "name": "图标",
-              "type": "text"
-            },
-            {
-              "id": "url",
-              "name": "跳转地址",
-              "type": "text"
-            },
-            {
-              "id": "where",
-              "name": "显示条件",
-              "type": "text"
-            },
-            {
-              "id": "color",
-              "name": "图标背景",
-              "type": "colorpicker"
-            }
-          ]
-        },
+
         {
           "id": "@jd_ck_remark.remark",
           "name": "CK 备注列表 (JSON 格式)",
