@@ -83,14 +83,14 @@ cookiesRemark.forEach((item) => {
       const item = {
         index: ckIndex,
         username,
-        nickname,
+/*        nickname,
         qywxUserId: "",
         cardId: "",
         paymentCode: "",
-        avatar,
+        avatar,          */
         ...ckRemarkFormat[username],
-        jdPet,
-        fruit,
+ /*       jdPet,
+        fruit,           */
         beanNum,
         mobile,
         isPlusVip,
