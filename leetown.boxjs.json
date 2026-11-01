@@ -148,7 +148,7 @@
     {
       "id": "JD_Cookies",
       "name": "京东账号",
-      "keys": ["jdCookieList", "CookiesJD", "cks_get_mute"],
+      "keys": ["jdCookieList", "cks_get_mute"],
       "settings": [
         {
           "id": "cks_get_mute",
