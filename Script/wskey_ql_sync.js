@@ -521,7 +521,7 @@ async function main() {
       }
 
       const envName = 'JD_WSCK';
-      const envValue = wskey;
+      const envValue = cookie;
       const pinFromCookie = extractPtPin(envValue);
       const compareKey = pinFromCookie || userName;
       const envRemarks = `${compareKey || userName} - 由 Surge 同步`;
