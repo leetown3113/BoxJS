@@ -7,7 +7,7 @@ const $ = new API("ql", true);
 
 const title = "通知提示";
 
-const jd_cookies = JSON.parse($.read("#CookiesJD") || "[]");
+const jd_cookies = JSON.parse($.read("#jdCookieList") || "[]");
 
 let remark = {};
 try {
