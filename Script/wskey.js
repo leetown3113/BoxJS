@@ -152,7 +152,7 @@ function createCookie(ptPin, wskey) {
   if (!ptPin || !wskey) return '';
   // 先解码可能已经被编码的 ptPin，再重新编码，避免双重编码
   const decodedPin = decodeURIComponent(ptPin);
-      return `${wskey}`;
+  return `pin=${encodeURIComponent(decodedPin)}; wskey=${wskey};`;
 }
 
 function clearTempCache() {
@@ -327,7 +327,7 @@ async function processCookie() {
     $.log(`🆕 新增用户 WSKEY: ${$.cookie}`);
     $.wskeyList.push({
       userName: normalizedPin,
-      wskey: $.cookie
+      cookie: $.cookie
     });
     clearTempCache();
     return true;
