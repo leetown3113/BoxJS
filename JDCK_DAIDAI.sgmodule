@@ -1,5 +1,5 @@
-#!name=京东 Cookie To DaiDai
-#!desc=自动获取京东 Cookie 推送到呆呆(pt_key;pt_pin)
+#!name=JD Cookie Push To DaiDaiPanel
+#!desc=自动获取京东 Cookie 推送到呆呆面板
 #!category=JD
 #!system=ios
 
