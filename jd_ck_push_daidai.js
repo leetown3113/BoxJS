@@ -15,14 +15,14 @@
 // ==================== 需要改的配置 ====================
 const CFG = {
   // 呆呆面板地址：IPv4/域名直接写；IPv6 要带方括号，例 http://[2408:8207::1]:5700
-  panel: "http://192.168.1.10:5700",
+  panel: "http://192.168.10.202:5700",
 
   // 鉴权方式："openapi" = AppKey/AppSecret（推荐）；"password" = 面板账号密码
   mode: "openapi",
-  appKey: "填你的 AppKey",
-  appSecret: "填你的 AppSecret",
-  username: "",      // mode=password 时填
-  password: "",      // mode=password 时填
+  appKey: "fd4cae3429bfec647fb36b377fb260ad",
+  appSecret: "6e7c80adaa262ece8e45add18ab02f60407bca504e264f3e5922fa0cc8ca64fb",
+  username: "leetown",      // mode=password 时填
+  password: "free79501307",      // mode=password 时填
 
   minGapMin: 10,     // 同一个 CK 至少隔多少分钟才重复推送
   pushBean: true,    // 推送后是否顺带查京豆
